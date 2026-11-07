@@ -123,3 +123,8 @@ apps/tauri/db/
 tasks
 **/*.local.md
 wealthfolio.db
+
+# Наши локальные данные и секреты контейнера
+*.db-shm
+*.db-wal
+/data/
